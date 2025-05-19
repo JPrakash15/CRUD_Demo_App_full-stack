@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: Fullstack Backend
-    env: java
-    buildCommand: mvn clean package
-    startCommand: java -jar target/fullstack-backend-0.0.1-SNAPSHOT.jar
-    envVars:
-      - key: JAVA_VERSION
-        value: "17"  # Specify the Java version if needed
